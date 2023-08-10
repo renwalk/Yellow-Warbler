@@ -15,9 +15,9 @@ function setup() {
 
 function draw() {
   
-  background(0);
+  background('rgb(233,233,30)');
   noStroke();
-  fill('rgb(233,233,30)')
+  fill(0)
       
   let level = amplitude.getLevel();
   let size = map(level, 0, 1, 0, 200);
